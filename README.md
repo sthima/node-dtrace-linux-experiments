@@ -1,1 +1,6 @@
-# node-dtrace-linux-experiments
+# Node Dtrace Linux Experiments
+
+
+# Dependencies
+
+On Ubuntu:

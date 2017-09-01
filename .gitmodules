@@ -1,0 +1,9 @@
+[submodule "libusdt"]
+	path = libusdt
+	url = git@github.com:mmarchini/libusdt.git
+[submodule "node-dtrace-provider"]
+	path = node-dtrace-provider
+	url = git@github.com:mmarchini/node-dtrace-provider.git
+[submodule "dtrace4linux"]
+	path = dtrace4linux
+	url = git@github.com:mmarchini/linux
