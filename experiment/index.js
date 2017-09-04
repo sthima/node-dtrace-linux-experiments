@@ -6,9 +6,9 @@ var p2 = dtp.addProbe("probe2", "char *");
 dtp.enable();
 
 function lorem() {
-  console.log("lored");
+  console.log("Trying to fire probe.");
   p1.fire(function() {
-    console.log("Fired");
+    console.log("Probe fired");
     return [1, 2];
   });
   setTimeout(lorem, 750);

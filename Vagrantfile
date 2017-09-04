@@ -11,6 +11,8 @@ Vagrant.configure("2") do |config|
     ubuntu_config.vm.synced_folder "./libusdt", "/libusdt", type: "nfs"
     ubuntu_config.vm.synced_folder "./dtrace4linux", "/dtrace", type: "nfs"
     ubuntu_config.vm.synced_folder "./node-dtrace-provider", "/node-dtrace-provider", type: "nfs"
+
+    ubuntu_config.vm.provision "shell", path: "install.sh", privileged: false
   end
 
   config.vm.define "bsd", autostart: false do |bsd_config|
