@@ -2,6 +2,14 @@
 
 An attempt to port `libust` and `node-dtrace-provider` to Linux.
 
+# Get submodules
+
+First, you must get all submodules with the following command:
+
+```bash
+git submodules update --init
+```
+
 # Start the VM
 
 There's a Vagrant box provisioned to test this port. To start the box, run:
